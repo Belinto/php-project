@@ -1,0 +1,59 @@
+body {
+    background-color: aquamarine;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(38, 0, 255);
+    line-height: 24px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 32px;
+    padding: 20px 0;
+    text-align: center;
+}
+header{
+    background-color:rgb(2, 70, 61);
+    height:80px;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+}
+nav{
+    flex:1;
+}
+nav ul{
+    list-style:none;
+    display:flex;
+}
+nav ul li{
+    flex:1;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(245, 229, 9);
+}
+nav ul li a:hover{
+    font-weight: bold;
+    color:rgba(223, 4, 150, 0.815);
+}
+button {
+    color: blue;
+    background-color: rgb(6, 228, 248);
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: bolder;
+    border: white;
+    height: 150px;
+    width: 150px;
+    font-size: large;
+}
